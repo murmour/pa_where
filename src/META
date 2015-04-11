@@ -1,0 +1,10 @@
+# OASIS_START
+# DO NOT EDIT (digest: 0f263acbf1839f96c1b80fe31e62acca)
+version = "0.4"
+description = "Backward declaration syntax for OCaml"
+requires = "camlp4"
+archive(syntax, preprocessor) = "pa_where.cma"
+archive(syntax, toploop) = "pa_where.cma"
+exists_if = "pa_where.cma"
+# OASIS_STOP
+

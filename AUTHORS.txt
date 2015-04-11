@@ -1,0 +1,13 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: c7d58f35579aee0c32927581f35f80e3) *)
+
+Authors of pa_where:
+
+* mfp <mfp@acm.org>
+* bluestorm <bluestorm.dylc@gmail.com>
+
+Current maintainers of pa_where:
+
+* Max Mouratov
+
+(* OASIS_STOP *)
