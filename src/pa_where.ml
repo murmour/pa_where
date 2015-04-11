@@ -20,7 +20,7 @@
      The following extension introduces a syntax for backward declarations
      (allowing a top-to-bottom declarative style), using the "where" keyword.
 
-     See README.rst file for more information.
+     See README.rst for more information.
 *)
 
 
