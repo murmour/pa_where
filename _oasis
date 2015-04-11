@@ -1,0 +1,34 @@
+Name            : pa_where
+Version         : 0.4
+Synopsis        : Backward declaration syntax for OCaml
+Copyrights      : (C) 2007 mfp <mfp@acm.org>
+                  (C) 2007 bluestorm <bluestorm.dylc@gmail.com>
+Authors         : mfp <mfp@acm.org>, bluestorm <bluestorm.dylc@gmail.com>
+Maintainers     : Max Mouratov
+License         : LGPL-2.1 with OCaml linking exception
+LicenseFile     : LICENSE.txt
+Plugins         : META (0.2), StdFiles (0.2)
+XStdFilesREADME : false
+BuildTools      : ocamlbuild, camlp4
+Homepage        : https://github.com/cakeplus/pa_where
+OASISFormat     : 0.4
+OCamlVersion    : >= 3.11
+
+Description:
+  Pa_where provides a syntax for backward declarations (allowing a
+  top-to-bottom declarative style), using the "where" keyword.
+  Local definitions in expressions and toplevel definitions are both supported.
+
+Library pa_where
+  Path: src
+  Modules: Pa_where
+  FindlibName: pa_where
+  BuildDepends: camlp4.lib, camlp4.quotations, camlp4.extend
+  CompiledObject: byte
+  XMETAType: syntax
+  XMETARequires: camlp4
+
+SourceRepository this
+  Type: git
+  Location: https://github.com/cakeplus/pa_where
+  Tag: 0.4
